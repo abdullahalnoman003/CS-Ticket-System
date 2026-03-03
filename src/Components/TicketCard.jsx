@@ -6,15 +6,6 @@ const priorityStyles = {
 };
 
 const TicketCard = ({ ticket,onAddToProgress, isAlreadyAdded }) => {
-  const formattedDate = new Date(ticket.createdAt).toLocaleDateString(
-    "en-US",
-    {
-      year: "numeric",
-      month: "numeric",
-      day: "numeric",
-    }
-  );
-
   const priority = ticket.priority || "Low";
   const priorityStyle = priorityStyles[priority];
 
@@ -62,7 +53,7 @@ const TicketCard = ({ ticket,onAddToProgress, isAlreadyAdded }) => {
         </div>
 
         <div className="flex items-center gap-2 text-gray-400">
-          <span>{formattedDate}</span>
+          <span>{ticket.createdAt}</span>
         </div>
       </div>
     </div>
