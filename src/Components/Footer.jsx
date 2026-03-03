@@ -61,7 +61,7 @@ const Footer = () => {
           </nav>
         </footer>
 
-        <div className="bg-black text-center text-md">
+        <div className="bg-black text-center text-md p-6">
           <aside>
             <p>
               Copyright © {new Date().getFullYear()} - All right reserved by CS

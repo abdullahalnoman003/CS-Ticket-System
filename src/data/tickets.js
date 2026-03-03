@@ -76,7 +76,7 @@ const tickets = [
       "Clicking the 'Download Invoice' button does nothing on some orders. Users cannot obtain their purchase receipts.",
     customer: "Henry Brown",
     priority: "Low",
-    status: "open",
+    status: "In Progress",
     createdAt: "2026-02-17",
   },
   {
@@ -96,7 +96,7 @@ const tickets = [
       "The analytics dashboard is showing yesterday's data instead of real-time figures. Revenue and order counts are not updating.",
     customer: "James Thomas",
     priority: "Medium",
-    status: "open",
+    status: "In Progress",
     createdAt: "2026-02-19",
   },
   {
@@ -126,7 +126,7 @@ const tickets = [
       "Category and price range filters on the product listing page do not apply. The page reloads but shows all products regardless.",
     customer: "Mia Clark",
     priority: "Medium",
-    status: "open",
+    status: "In Progress",
     createdAt: "2026-02-22",
   },
 ];
